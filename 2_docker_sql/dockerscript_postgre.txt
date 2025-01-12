@@ -8,11 +8,16 @@ postgres:13
 
 
 
-yellow csv:
+list yellow csv:
 https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
+yellow:
+https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz
 
 green csv:
 https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/green
 
 all csv:
 https://github.com/DataTalksClub/nyc-tlc-data?tab=readme-ov-file
+
+dict yellow:
+https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
