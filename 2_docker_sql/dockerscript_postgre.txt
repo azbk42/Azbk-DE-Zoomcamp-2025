@@ -48,6 +48,17 @@ docker run -it \
         --table_name=yellow_taxi_data \
         --url=$URL
 
+docker run -it \
+    --network=2_docker_sql_my_network \
+    taxi_ingest:v001 \
+        --user=root \
+        --password=root \
+        --host=pgdatabase \
+        --port=5432 \
+        --db=ny_taxi \
+        --table_name=yellow_taxi_data \
+        --url=$URL
+
 list yellow csv:
 https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/yellow
 yellow:
