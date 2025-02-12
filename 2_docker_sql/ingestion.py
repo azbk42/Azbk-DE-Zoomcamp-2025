@@ -7,9 +7,6 @@ from time import time
 import argparse
 import os
 
-
-
-
 def main(params):
 
     user = params.user
